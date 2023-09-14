@@ -3,5 +3,11 @@
     "config:base",
     ":separateMultipleMajorReleases",
     ":separatePatchReleases"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "enabled": false
+    }
   ]
 }
